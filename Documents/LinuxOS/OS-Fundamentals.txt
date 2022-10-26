@@ -6,4 +6,11 @@ linux distributions :
 There are many linux distributions are available in that distibutions 3 is majourly used 1.ubuntu
      2.redhat
      3.suse.    these distributions are in majourity of users.
-  
+ Server OS Vs Client OS:
+ 
+1. Client OS :
+It is an operating system that operates within desktop. It is used to obtain services from a server. It run on the client devices like laptop, computer and is very simple operating system.
+
+2. Server OS :
+It is an operating system that is designed to be used on server. It is used to provide services to multiple client. It can serve multiple client at a time and is very advanced operating system.
+
