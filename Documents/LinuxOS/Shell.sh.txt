@@ -1,0 +1,26 @@
+touch f1.txt
+mkdir -p dir1/dir2/dir3
+touch dir1/f2.txt
+ls -l dir1/
+cat dir1/f2.txt
+rm f1.txt
+cp dir1/f2.txt dir1/dir2/
+mv dir1/dir2/f2.txt dir1/dir2/dir3
+
+sudo adduser sriaz
+passwd sriaz
+sudo useradd sri-az
+cat etc/passwd
+
+sudo groupadd srigroup
+sudo usermod -a -G srigroup sriaz
+
+cat etc/group
+chmod 764 dir1/f2.txt
+
+pwd
+date
+uptime
+ip a
+
+
