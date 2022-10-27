@@ -1,4 +1,7 @@
 #fundamentals of Operating System
+Linux is an Open source Operating System
+Linux is created by Kernel
+
 operating systems are two types 
 1. client operating system
 2. server operating system
@@ -13,4 +16,7 @@ It is an operating system that operates within desktop. It is used to obtain ser
 
 2. Server OS :
 It is an operating system that is designed to be used on server. It is used to provide services to multiple client. It can serve multiple client at a time and is very advanced operating system.
+
+
+
 
