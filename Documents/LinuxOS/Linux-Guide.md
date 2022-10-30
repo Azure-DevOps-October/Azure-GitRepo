@@ -14,7 +14,9 @@ By default Root User ID will be 0 in any Linux OS
 	Rest of the users will be assigned from 1000 onwards.
 
 To see s/m users cmd is   getent passwd {1..999}
+
 To user accounts          getent passwd {1000..60000} 
+
 To create users:
 sudo adduser username  (it prompts details,by default it creats directory)
 sudo useradd username  (It doesn't prompts for any details, it just creates the user,manually we shuold create dir)
