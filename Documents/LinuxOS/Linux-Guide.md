@@ -47,6 +47,8 @@ username ALL=(ALL) ALL 			                         : asks passwd for every cmd
 username ALL=(ALL) NOPASSWD:ALL                      : setting no passwd for all the cmds
 username ALL=(ALL) NOPASSWD:/bin/mkdir,/bin/rmdir    : to set nopasswd and allowing sudo permissions for limited cmds , what are cmds we want to allow those we should mension here.
 
+Localhost=(ALL:ALL)
+
 File Permissions:
 there are 2 ways to manage permissions, one is by text the other is by an octal value
 
