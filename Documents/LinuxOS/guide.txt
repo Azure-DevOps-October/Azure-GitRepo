@@ -1,0 +1,9 @@
+basic commands of linux
+1.ls : to list out the files 
+2.cp : to copy the files and directories
+3.mv : to move the files
+4.touch : tp create the files
+5. mkdir : to make directory
+6. rmdir : to remove the directory
+7. pwd   : present working directory
+8. rm    : to remove the file

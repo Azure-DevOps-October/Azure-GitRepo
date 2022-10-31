@@ -1,0 +1,3 @@
+Download Virtual Box -  https://www.virtualbox.org/wiki/Downloads
+
+Download Ubuntu Desktop Image -  https://ubuntu.com/download/desktop
