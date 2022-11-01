@@ -7,27 +7,6 @@ One of the strongest tightly coupled Kernel.
 
 
 User Management in Linux
-----------------------------
-
-
-
-
-
-
-
-Package management
---------------------------
-sudo apt install
-
-
-
-
-Service Management
--------------------------------
-=======
-The first version of Linux was released on Sep17th, 1971 by Linus Torvalsi.
-
-User Management in Linux
 ---------------------------
 Linux has 3 types of Users
 Normal User
@@ -42,4 +21,22 @@ addgroup
 
 Command to add previliges as root does:
 sudo
->>>>>>> Stashed changes
+
+Localhost=(ALL:ALL)
+
+
+File Permissions:
+there are 2 ways to manage permissions, one is by text the other is by an octal value
+
+
+Package management
+--------------------------
+sudo apt install
+
+
+Service Management
+-------------------------------
+=======
+The first version of Linux was released on Sep17th, 1971 by Linus Torvalsi.
+
+
