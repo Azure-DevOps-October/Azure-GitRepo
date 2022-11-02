@@ -1,5 +1,5 @@
 
-#Linux is an Open source Operating System
+Linux is an Open source Operating System
 Linux is created by Kernel
 Linux is an Open source Operating System
 
@@ -54,3 +54,7 @@ mkdir directory name
 touch file name
 
 
+network moduels
+peer to peer network
+client server 
+wired/wireless
