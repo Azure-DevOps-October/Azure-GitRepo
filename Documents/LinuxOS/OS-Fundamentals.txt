@@ -1,3 +1,3 @@
 #fundamentals of Operating System
 #Linux is an Open source Operating System
-#Linux is created by Kernel
+Linux is created by Kernel
