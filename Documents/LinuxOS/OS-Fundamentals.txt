@@ -1,6 +1,7 @@
-#fundamentals of Operating System
-Linux is an Open source Operating System
+
+#Linux is an Open source Operating System
 Linux is created by Kernel
+Linux is an Open source Operating System
 
 Task 1# Fundamental of Linux OS
 ----------------------------------
@@ -51,3 +52,5 @@ cp source destination
 mv source destination ( both move and rename)
 mkdir directory name
 touch file name
+
+
