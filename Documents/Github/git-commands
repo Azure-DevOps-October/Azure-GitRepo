@@ -28,3 +28,4 @@ Synchronize
 git remote add <name> <url> - create new connection to a remote repo
 git fetch - get all the changes from the origin
 git pull - get all teh latest chagnes from the origin and merge
+/dev :ita mean how many devices are conneceted by our system
