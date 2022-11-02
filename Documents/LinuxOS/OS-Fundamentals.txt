@@ -1,1 +1,4 @@
-#fundamentals of Operating System
+network moduels
+peer to peer network
+client server 
+wired/wireless
