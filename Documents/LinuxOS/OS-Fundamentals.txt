@@ -1,3 +1,56 @@
-#fundamentals of Operating System
+
 #Linux is an Open source Operating System
 Linux is created by Kernel
+Linux is an Open source Operating System
+
+Task 1# Fundamental of Linux OS
+----------------------------------
+Ubuntu is one of the finest linux distributions in the OS world.
+It open source, highly sucure, scalable and efficient OS.
+The Linux architecure includes Hardware >> Kernel Modules >> Kernel>>System Libraries >> System utilities and applications
+
+Task 2# Diff bw Client OS and Server OS
+--------------------------------------------
+operating systems are two types 
+1. client operating system
+2. server operating system
+linux distributions :
+There are many linux distributions are available in that distibutions 3 is majourly used 1.ubuntu
+     2.redhat
+     3.suse.    these distributions are in majourity of users.
+ Server OS Vs Client OS:
+ 
+1. Client OS :
+It is an operating system that operates within desktop. It is used to obtain services from a server. It run on the client devices like laptop, computer and is very simple operating system.
+
+2. Server OS :
+It is an operating system that is designed to be used on server. It is used to provide services to multiple client. It can serve multiple client at a time and is very advanced operating system.
+
+Task 3# History of Linux
+----------------------------
+The Linux is evoluted from Unix. Currently Linux has a many distributions in the form of Ubuntu, Suse and redhat etc.
+
+Task 4# Features of Linux OS
+----------------------------------
+Open Source
+faster
+Backward Compatibility
+Apps are free
+Highly Secure
+
+Task 5# 
+Red Hat
+Suse
+
+Task 6# Linux Commands
+------------------------------
+ls 
+ls -l
+ls -al
+ll
+cp source destination
+mv source destination ( both move and rename)
+mkdir directory name
+touch file name
+
+

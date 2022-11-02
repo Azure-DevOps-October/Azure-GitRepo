@@ -1,0 +1,3 @@
+client operating system and server operating system are two different operating systems.
+kernal is main in the linux operating system it works on input devices in linux operating system.
+
