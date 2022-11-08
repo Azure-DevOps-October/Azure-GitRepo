@@ -7,3 +7,6 @@ basic commands of linux
 6. rmdir : to remove the directory
 7. pwd   : present working directory
 8. rm    : to remove the file
+9. ls -al : to list out the files and root users
+10.cat : to view the content of the file
+
