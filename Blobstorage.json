@@ -1,0 +1,53 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageprefix": {
+            "type": "string",
+            "min_length": 3,
+            "max_length": 24
+        },
+        "skutype": {
+              "type": "string",
+              "defaultvalue": "Standard_LRS"
+              "allowedvalues": {
+                "Standard_LRS",
+                "Standard_ZRS",
+                "Standard_GRS",
+                "Premium_LRS",
+                "Premium_ZRS"
+              }
+        }
+    },
+    "functions": [],
+    "variables": {
+        "storageAccountName": "[concat(parameters('storageprefix'),uniqueString(resourceGroup().id))]" 
+        "Containername": "[concat('container',uniqueString(resourceGroup().id))]" 
+    },
+    "resources": [
+        {
+            "name": "[variables('storageAccountname')]",
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2021-04-01",
+            "tags": {
+                "di[paramete('storagename')]rs
+            },
+            "location": "[resourceGroup().location]",
+            "kind": "StorageV2",
+            "sku": "[parameters('skutype')]"
+            
+        },
+        {
+            "name": "[variables('Containername')]",
+            "type": "blobServices/containers",
+            "apiVersion": "2018-03-01-preview",
+            "dependsOn": [
+            "[parameters('storageAccountName')]"
+            ],
+            "properties": {
+            "publicAccess": "Blob"
+        }  
+        }
+    ],
+    "outputs": {}
+}
